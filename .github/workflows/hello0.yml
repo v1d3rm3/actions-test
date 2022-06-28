@@ -1,5 +1,9 @@
 name: Hello Actions 0
-on: [push]
+on: 
+  push:
+    branches: 
+      - 'main'
+
 jobs:
   Hello-Job-1:
     runs-on: ubuntu-latest
